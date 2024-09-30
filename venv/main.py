@@ -28,8 +28,8 @@ def process_log(input_file, output_file):
                     print(f"Warning: Unable to extract data from line: {line.strip()}")
 
 if __name__ == "__main__":
-    input_file_path = 'shock test 6 middle setting 150 psi.log'
-    output_file_path = '0_middle_150.csv'
+    input_file_path = 'shock test 6 middle setting 150 psi.log' #change this to desired log file.
+    output_file_path = '0_middle_150.csv' #Change this to output file
 
     process_log(input_file_path, output_file_path)
     print("CSV file created successfully.")
